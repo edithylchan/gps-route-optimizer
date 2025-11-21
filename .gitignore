@@ -1,0 +1,29 @@
+# Build artifacts
+build/
+*.exe
+*.o
+*.obj
+
+# Data files (OSM files are large)
+data/*.osm
+data/*.osm.gz
+data/*.osm.bz2
+
+# Generated files
+web/routes.json
+web/route.json
+
+# IDE files
+.vscode/
+.vs/
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
