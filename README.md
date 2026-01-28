@@ -107,7 +107,11 @@ g++ -std=c++17 -O2 -o build/gps_router.exe src/main.cpp src/graph.cpp src/osm_pa
 ./build/gps_router.exe
 ```
 
-5. **View results**
+5. **View live demo** 🌐
+   - **Interactive map**: [https://edithylchan.github.io/gps-route-optimizer/](https://edithylchan.github.io/gps-route-optimizer/)
+   - Pre-loaded with sample UCLA area routes
+   
+   OR run locally:
    - Open `web/index.html` with Live Server
    - Or run: `cd web && python -m http.server 8000`
    - Navigate to `http://localhost:8000`
